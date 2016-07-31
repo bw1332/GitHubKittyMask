@@ -1,4 +1,4 @@
-# GitHubKittyMask
+# GitHub Kitty Mask
 
 ##Kitty Mask
 
