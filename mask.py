@@ -28,7 +28,7 @@ elif dayOfWeek == 6:
     dayOfWeek = 1
 else:
     dayOfWeek = dayOfWeek + 2
-days = dayOfWeek + 7 * 35
+days = dayOfWeek + 7 * 20
 
 if os.path.exists("kitty"):
     for c in range(col):
