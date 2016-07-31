@@ -22,11 +22,11 @@ row = len(kitty)
 col = len(kitty[0])
 
 dayOfWeek = datetime.now().weekday()
-if dayOfWeek == 5
+if dayOfWeek == 5:
     dayOfWeek = 0
-elif dayOfWeek == 6
+elif dayOfWeek == 6:
     dayOfWeek = 1
-else
+else:
     dayOfWeek = dayOfWeek + 1
 days = dayOfWeek + 7 * 6
 
