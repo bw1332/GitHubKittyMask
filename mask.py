@@ -13,8 +13,14 @@ kitty = [
 row = len(kitty)
 col = len(kitty[0])
 
-dayOfWeek = datetime.now().weekday() + 1
-days = dayOfWeek + 7 * 5
+dayOfWeek = datetime.now().weekday()
+if dayOfWeek == 5
+    dayOfWeek = 0
+elif dayOfWeek == 6
+    dayOfWeek = 1
+else
+    dayOfWeek = dayOfWeek + 1
+days = dayOfWeek + 7 * 6
 
 if os.path.exists("kitty"):
 #right cat
@@ -31,6 +37,7 @@ if os.path.exists("kitty"):
             days += 1
 
 #left cat
+    days += 7 * 5
 
     for c in range(col):
         for r in range(row):
