@@ -1,6 +1,6 @@
 # GitHub Kitty Mask
 
-##Kitty Mask
+## Kitty Mask
 
 To draw a kitty on github commit history calendar.
 
